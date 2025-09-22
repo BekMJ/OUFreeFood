@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 let $eventsContainer, $calendarContainer, $resultsCount, $sortSelect, $toast;
 let $searchInput, $campusSelect, $categorySelect, $dateFrom, $dateTo, $clearFilters;
 let $submitForm, $clearLocal;
-let $todayBtn, $prevBtn, $nextBtn, $currentRangeLabel, $viewList, $viewWeek, $viewMonth, $importEngageBtn;
+let $todayBtn, $prevBtn, $nextBtn, $currentRangeLabel, $viewList, $viewWeek, $viewMonth, $importEngageBtn, $themeToggle;
 
 function initUIRefs() {
   $eventsContainer = document.getElementById("eventsContainer");
@@ -51,6 +51,7 @@ function initUIRefs() {
   $viewWeek = document.getElementById("viewWeek");
   $viewMonth = document.getElementById("viewMonth");
   $importEngageBtn = document.getElementById("importEngageBtn");
+  $themeToggle = document.getElementById("themeToggle");
 }
 
 function wireEvents() {
@@ -127,6 +128,10 @@ function wireEvents() {
 
   // Engage import (beta)
   $importEngageBtn.addEventListener("click", importFromEngage);
+
+  // Theme toggle
+  initTheme();
+  $themeToggle.addEventListener("click", toggleTheme);
 }
 
 async function loadData() {
@@ -319,10 +324,11 @@ function renderCard(ev) {
 
   const timeText = end ? `${formatDateTimeRange(start, end)}` : `${formatDateTime(start)}`;
 
+  card.setAttribute("data-cat", ev.category || "");
   card.innerHTML = `
     <div class="meta">
       <span class="badge" title="Campus">🏫 ${ev.campus || ""}</span>
-      <span class="badge" title="Category">🍽️ ${ev.category || ""}</span>
+      <span class="badge" title="Category" data-cat="${escapeAttr(ev.category || "")}">🍽️ ${ev.category || ""}</span>
       ${ev.dietary ? `<span class="badge" title="Dietary">🥗 ${escapeHtml(ev.dietary)}</span>` : ""}
     </div>
     <h3>${escapeHtml(ev.title)}</h3>
@@ -390,6 +396,7 @@ function renderMonthCalendar(items) {
         const evEl = document.createElement("a");
         evEl.href = ev.link ? escapeAttr(ev.link) : "#";
         evEl.className = "cal-event" + (isNowBetween(new Date(ev.start), ev.end ? new Date(ev.end) : null) ? " ongoing" : "");
+        evEl.setAttribute("data-cat", ev.category || "");
         evEl.target = ev.link ? "_blank" : "_self";
         evEl.rel = ev.link ? "noopener noreferrer" : "";
         evEl.title = `${formatTime(new Date(ev.start))}${ev.end?"-"+formatTime(new Date(ev.end)):""} ${ev.title}`;
@@ -478,6 +485,7 @@ function renderWeekCalendar(items) {
     const height = Math.max(24, ((endTime - start) / (1000 * 60 * 60)) * slotHeight);
     const el = document.createElement("div");
     el.className = "week-event" + (isNowBetween(start, ev.end ? new Date(ev.end) : null) ? " ongoing" : "");
+    el.setAttribute("data-cat", ev.category || "");
     el.style.top = `${top}px`;
     el.style.height = `${height}px`;
     el.title = `${formatDateTimeRange(start, endTime)} ${ev.title}`;
@@ -546,6 +554,29 @@ function showToast(msg) {
   $toast.classList.add("show");
   clearTimeout(showToast._t);
   showToast._t = setTimeout(() => $toast.classList.remove("show"), 1800);
+}
+
+// Theme
+function initTheme() {
+  const saved = localStorage.getItem("oufreefood_theme");
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (prefersDark ? 'dark' : 'light');
+  setTheme(theme);
+}
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  setTheme(next);
+  localStorage.setItem('oufreefood_theme', next);
+}
+function setTheme(theme) {
+  if (theme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    if ($themeToggle) $themeToggle.textContent = '☀️';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    if ($themeToggle) $themeToggle.textContent = '🌙';
+  }
 }
 
 // Date helpers for calendar

@@ -13,7 +13,10 @@ const OUTPUT = resolve(DATA_DIR, 'engage.json');
 
 // Simple keyword list to classify free-food-ish events
 const KEYWORDS = [
-  'free food','pizza','snack','snacks','coffee','donut','bagel','lunch','dinner','breakfast','refreshments','ice cream','pantry','meal','meals','cookies','drinks','boba','tea'
+  // High priority exact phrase variants
+  'free food','free-food','free lunch','free dinner','free breakfast','free snacks',
+  // General food keywords
+  'pizza','snack','snacks','coffee','donut','bagel','lunch','dinner','breakfast','refreshments','ice cream','pantry','meal','meals','cookies','drinks','boba','tea'
 ];
 
 async function main() {
