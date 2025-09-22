@@ -418,6 +418,26 @@ function renderWeekCalendar(items) {
   const rangeLabel = `${anchor.toLocaleDateString([], { month: "short", day: "numeric" })} – ${end.toLocaleDateString([], { month: "short", day: "numeric", year: "numeric" })}`;
   $currentRangeLabel.textContent = rangeLabel;
 
+  // Weekday header with names and dates
+  const head = document.createElement("div");
+  head.className = "week-head";
+  const blank = document.createElement("div");
+  blank.className = "wday time-col";
+  blank.textContent = "";
+  head.appendChild(blank);
+  const days = [];
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(anchor);
+    d.setDate(anchor.getDate() + i);
+    days.push(d);
+    const cell = document.createElement("div");
+    cell.className = "wday";
+    if (isSameDay(d, new Date())) cell.classList.add("today");
+    const wd = d.toLocaleDateString([], { weekday: "short" });
+    cell.textContent = `${wd} ${d.getMonth() + 1}/${d.getDate()}`;
+    head.appendChild(cell);
+  }
+
   const wrapper = document.createElement("div");
   wrapper.className = "week-grid";
 
@@ -442,6 +462,7 @@ function renderWeekCalendar(items) {
 
   wrapper.appendChild(hoursCol);
   wrapper.appendChild(cols);
+  $calendarContainer.appendChild(head);
   $calendarContainer.appendChild(wrapper);
 
   // Position events
