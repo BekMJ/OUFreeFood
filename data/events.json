@@ -1,0 +1,46 @@
+[
+  {
+    "id": "seed-1",
+    "title": "Free Coffee & Donuts",
+    "host": "Student Affairs",
+    "campus": "Norman",
+    "location": "Bizzell Memorial Library, main entrance",
+    "description": "Grab a free coffee and donut to kickstart your morning.",
+    "category": "Breakfast",
+    "dietary": "Vegetarian options",
+    "link": "",
+    "start": "2025-09-23T08:30:00-05:00",
+    "end": "2025-09-23T10:00:00-05:00",
+    "createdAt": "2025-09-20T12:00:00-05:00"
+  },
+  {
+    "id": "seed-2",
+    "title": "Pizza and Project Night",
+    "host": "CS Club",
+    "campus": "Norman",
+    "location": "Devon Energy Hall, Room 120",
+    "description": "Work on projects, meet peers, and enjoy free pizza.",
+    "category": "Pizza",
+    "dietary": "Cheese and pepperoni available",
+    "link": "https://example.com/csclub",
+    "start": "2025-09-24T18:00:00-05:00",
+    "end": "2025-09-24T20:30:00-05:00",
+    "createdAt": "2025-09-20T13:00:00-05:00"
+  },
+  {
+    "id": "seed-3",
+    "title": "Food Pantry Pop-up",
+    "host": "OU Food Security Program",
+    "campus": "OUHSC",
+    "location": "Student Union Patio",
+    "description": "Free groceries for students in need. Bring OU ID.",
+    "category": "Pantry",
+    "dietary": "",
+    "link": "",
+    "start": "2025-09-25T12:00:00-05:00",
+    "end": "2025-09-25T14:00:00-05:00",
+    "createdAt": "2025-09-21T09:00:00-05:00"
+  }
+]
+
+

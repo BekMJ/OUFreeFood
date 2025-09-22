@@ -1,0 +1,16 @@
+{
+  "name": "oufreefood",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static site to list OU free food events, with GitHub Actions scraper.",
+  "scripts": {
+    "scrape:engage": "node scripts/scrape-engage.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "node-fetch": "3.3.2"
+  }
+}
+
+
