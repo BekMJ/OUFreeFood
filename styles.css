@@ -151,4 +151,7 @@ button:disabled { opacity: 0.6; cursor: not-allowed; }
 .cal-event[data-cat="Giveaway"] { background: var(--badge-bg); color: var(--text); border-color: var(--badge-border); }
 .week-event[data-cat="Giveaway"] { background: #111111; color: #ffffff; border-color: #222222; }
 
-
+@media (max-width: 640px) {
+  .toolbar { flex-direction: column; align-items: stretch; }
+  .toolbar .left, .toolbar .right { flex-wrap: wrap; }
+}

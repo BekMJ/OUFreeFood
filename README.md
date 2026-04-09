@@ -25,6 +25,7 @@ npx --yes serve -l 5173 "/Users/npl-weng/Desktop/untitled folder/OUFreeFood"
 
 - Use the form at the bottom of the page to add events locally. They are stored in your browser (not uploaded) and merged with the sample data.
 - To seed permanent events, edit `data/events.json` and reload.
+- Before editing seeded data, read `data/EVENT_SCHEMA.md` for the expected event shape and date requirements.
 
 ## Filters
 
@@ -38,24 +39,25 @@ npx --yes serve -l 5173 "/Users/npl-weng/Desktop/untitled folder/OUFreeFood"
 
 - Real backend for submissions and moderation
 - ICS/Google Calendar export
+- Automated email forwarding import
 - Email or SMS notifications
 - Accessibility audit and keyboard shortcuts
 - Map view and building codes integration
 
 ## GitHub Pages + Scheduled scraping
 
-This repo includes a free GitHub Actions workflow that scrapes OU Engage and commits `data/engage.json` on a schedule. The site can then import that cached JSON client-side on GitHub Pages (no server needed).
+This repo includes a free GitHub Actions workflow that pulls the public OU Engage RSS feed and commits `data/engage.json` on a schedule. The site can then import that cached JSON client-side on GitHub Pages (no server needed).
+
+The scraper only reads public OU Engage data, currently via the public RSS feed and embedded event content. It does not use an OU login. The only credential in the workflow is GitHub's `GITHUB_TOKEN`, which is used only to commit refreshed data back to your repo.
 
 Setup:
 1. Push this project to a GitHub repo.
 2. Enable Pages: Settings → Pages → Deploy from a branch → `main` → `/` (root).
 3. Actions: ensure Actions are enabled for the repo. The workflow `.github/workflows/scrape-engage.yml` runs every 30 min and on manual dispatch.
 4. After the first successful run, `data/engage.json` will exist. Click "Import from Engage" in the site to merge those events.
+5. The workflow also writes `data/engage-meta.json` with scrape timestamps, counts, and a small error summary for debugging.
 
 Notes:
 - The scraper is best-effort and may need selector adjustments if Engage changes markup.
-- You can tune keywords in `scripts/scrape-engage.mjs`.
+- You can tune classification logic and food signals in `scripts/scrape-engage.mjs`.
 - To run locally: `npm i` then `npm run scrape:engage`.
-
-
-

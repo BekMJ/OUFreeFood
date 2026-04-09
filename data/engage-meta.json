@@ -1,0 +1,37 @@
+{
+  "fetchedAt": "2026-04-09T04:12:17.701Z",
+  "source": {
+    "name": "OU Engage",
+    "feedUrl": "https://ou.campuslabs.com/engage/events.rss",
+    "baseUrl": "https://ou.campuslabs.com/engage/",
+    "feedTitle": "The University of Oklahoma Public Events occurring between Wednesday, April 8, 2026 11:08 PM CDT and Friday, July 17, 2026 11:08 PM CDT",
+    "feedLastBuildDate": "Thu, 09 Apr 2026 04:08:23 GMT"
+  },
+  "classifier": {
+    "version": 4,
+    "buckets": [
+      "free",
+      "pizza",
+      "breakfast",
+      "lunch",
+      "dinner",
+      "snacks",
+      "pantry",
+      "general"
+    ]
+  },
+  "crawl": {
+    "fetchedAt": "2026-04-09T04:12:17.701Z",
+    "discoveryMode": "rss-feed",
+    "baseUrl": "https://ou.campuslabs.com/engage/",
+    "feedUrl": "https://ou.campuslabs.com/engage/events.rss",
+    "feedItemsFound": 200,
+    "parsedItems": 200,
+    "matchedEvents": 27,
+    "cancelledSkipped": 3,
+    "missingStartSkipped": 0,
+    "dedupedEvents": 0,
+    "outputEvents": 27
+  },
+  "errors": []
+}

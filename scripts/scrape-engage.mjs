@@ -10,121 +10,291 @@ const __dirname = dirname(__filename);
 const ROOT = resolve(__dirname, '..');
 const DATA_DIR = resolve(ROOT, 'data');
 const OUTPUT = resolve(DATA_DIR, 'engage.json');
+const META_OUTPUT = resolve(DATA_DIR, 'engage-meta.json');
 
-// Simple keyword list to classify free-food-ish events
-const KEYWORDS = [
-  // High priority exact phrase variants
-  'free food','free-food','free lunch','free dinner','free breakfast','free snacks',
-  // General food keywords
-  'pizza','snack','snacks','coffee','donut','bagel','lunch','dinner','breakfast','refreshments','ice cream','pantry','meal','meals','cookies','drinks','boba','tea'
-];
+const CLASSIFIER_VERSION = 4;
+
+const FOOD_SIGNALS = {
+  free: [
+    'free food', 'free-food', 'free lunch', 'free dinner', 'free breakfast', 'free snacks',
+    'free pizza', 'free coffee', 'free donuts', 'free donut', 'free bagels', 'free bagel',
+    'free meal', 'free meals', 'free refreshments', 'free popcorn', 'free drinks'
+  ],
+  pizza: ['pizza', 'slice', 'slices', 'pepperoni'],
+  breakfast: ['breakfast', 'bagel', 'bagels', 'donut', 'donuts', 'coffee'],
+  lunch: ['lunch', 'boxed lunch', 'boxed lunches', 'bbq', 'barbecue', 'cookout'],
+  dinner: ['dinner', 'supper'],
+  snacks: ['snack', 'snacks', 'cookies', 'cookie', 'refreshments', 'boba', 'tea', 'drinks', 'ice cream', 'popcorn'],
+  pantry: ['pantry', 'groceries', 'grocery', 'food pantry'],
+  general: ['meal', 'meals', 'food', 'catering']
+};
 
 async function main() {
-  const base = 'https://ou.campuslabs.com/engage/';
-  const listUrl = new URL('events', base).toString();
-  const res = await fetch(listUrl, { headers: { 'accept': 'text/html' } });
-  if (!res.ok) throw new Error(`Failed to fetch list: ${res.status}`);
-  const html = await res.text();
-  const $ = loadHtml(html);
+  const fetchedAt = new Date().toISOString();
+  const baseUrl = 'https://ou.campuslabs.com/engage/';
+  const feedUrl = new URL('events.rss', baseUrl).toString();
+  const res = await fetch(feedUrl, { headers: { accept: 'application/rss+xml, application/xml, text/xml' } });
+  if (!res.ok) throw new Error(`Failed to fetch RSS feed: ${res.status}`);
+  const xml = await res.text();
+  const $ = loadHtml(xml, { xmlMode: true });
+  const feedTitle = cleanText($('channel > title').first().text());
+  const feedLastBuildDate = cleanText($('channel > lastBuildDate').first().text());
+  const items = $('channel > item').toArray();
 
-  // Heuristic: find links that look like event detail routes
-  const links = new Set();
-  $('a').each((_, a) => {
-    const href = $(a).attr('href') || '';
-    if (/\/event\//i.test(href)) {
-      const url = new URL(href, base).toString();
-      links.add(url);
-    }
-  });
+  const stats = {
+    fetchedAt,
+    discoveryMode: 'rss-feed',
+    baseUrl,
+    feedUrl,
+    feedItemsFound: items.length,
+    parsedItems: 0,
+    matchedEvents: 0,
+    cancelledSkipped: 0,
+    missingStartSkipped: 0,
+    dedupedEvents: 0,
+    outputEvents: 0
+  };
 
   const events = [];
-  for (const url of links) {
+  const errors = [];
+
+  for (const item of items) {
     try {
-      const ev = await parseEvent(url);
-      if (!ev) continue;
-      const text = `${ev.title} ${ev.description}`.toLowerCase();
-      if (!KEYWORDS.some(k => text.includes(k))) continue;
-      events.push(ev);
-    } catch (e) {
-      // Best-effort; continue
+      const event = parseFeedItem($, item, fetchedAt);
+      if (!event) continue;
+      stats.parsedItems += 1;
+
+      if (event.status === 'cancelled') {
+        stats.cancelledSkipped += 1;
+        continue;
+      }
+
+      if (!event.classification?.isFoodRelated) continue;
+
+      if (!event.start) {
+        stats.missingStartSkipped += 1;
+        continue;
+      }
+
+      stats.matchedEvents += 1;
+      events.push(event);
+    } catch (error) {
+      errors.push({
+        title: extractItemText($, item, 'title'),
+        message: error instanceof Error ? error.message : String(error)
+      });
     }
   }
 
+  const dedupedEvents = dedupeEvents(events);
+  stats.dedupedEvents = events.length - dedupedEvents.length;
+  stats.outputEvents = dedupedEvents.length;
+
+  const metadata = {
+    fetchedAt,
+    source: {
+      name: 'OU Engage',
+      feedUrl,
+      baseUrl,
+      feedTitle,
+      feedLastBuildDate
+    },
+    classifier: {
+      version: CLASSIFIER_VERSION,
+      buckets: Object.keys(FOOD_SIGNALS)
+    },
+    crawl: stats,
+    errors: errors.slice(0, 25)
+  };
+
   await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(events, null, 2));
-  console.log(`Wrote ${events.length} events to ${OUTPUT}`);
+  await Promise.all([
+    writeFile(OUTPUT, JSON.stringify(dedupedEvents, null, 2)),
+    writeFile(META_OUTPUT, JSON.stringify(metadata, null, 2))
+  ]);
+
+  console.log(`Wrote ${dedupedEvents.length} events to ${OUTPUT}`);
+  console.log(`Wrote crawl metadata to ${META_OUTPUT}`);
 }
 
-async function parseEvent(url) {
-  const res = await fetch(url, { headers: { 'accept': 'text/html' } });
-  if (!res.ok) return null;
-  const html = await res.text();
-  const $ = loadHtml(html);
-
-  // Try to read JSON-LD if present (common on event pages)
-  let data = null;
-  $('script[type="application/ld+json"]').each((_, s) => {
-    try {
-      const j = JSON.parse($(s).contents().text());
-      if (Array.isArray(j)) {
-        for (const item of j) {
-          if ((item['@type'] || '').toLowerCase().includes('event')) data = item;
-        }
-      } else if ((j['@type'] || '').toLowerCase().includes('event')) {
-        data = j;
-      }
-    } catch {}
-  });
-
-  const title = data?.name || $('h1, h2').first().text().trim();
+function parseFeedItem($feed, node, fetchedAt) {
+  const title = extractItemText($feed, node, 'title');
   if (!title) return null;
-  const description = (data?.description || $('[data-testid="description"]').text() || $('meta[name="description"]').attr('content') || '').trim();
-  const start = data?.startDate || guessDate($, 'start');
-  const end = data?.endDate || guessDate($, 'end');
-  const location = data?.location?.name || $('[data-testid="location"], .location, [aria-label*="Location"]').first().text().trim();
-  const org = $('[data-testid="organization"], [href*="organization"], .organization').first().text().trim();
+
+  const link = extractItemText($feed, node, 'link') || extractItemText($feed, node, 'guid');
+  const descriptionHtml = extractItemText($feed, node, 'description');
+  const descriptionData = parseDescriptionHtml(descriptionHtml);
+  const hosts = $feed(node).find('host').map((_, el) => cleanText($feed(el).text())).get().filter(Boolean);
+  const author = extractItemText($feed, node, 'author');
+  const host = cleanText(hosts.join(' / ')) || extractHostFromAuthor(author);
+  const status = extractItemText($feed, node, 'status').toLowerCase() || 'confirmed';
+  const feedLocation = extractItemText($feed, node, 'location');
+  const categories = $feed(node).find('category').map((_, el) => cleanText($feed(el).text())).get().filter(Boolean);
+
+  const start = descriptionData.start || safeToIso(extractItemText($feed, node, 'start'));
+  const end = descriptionData.end || safeToIso(extractItemText($feed, node, 'end'));
+  const location = descriptionData.location || feedLocation;
+  const description = descriptionData.description;
+  const campus = inferCampus({ location, title, description });
+  const classification = classifyEvent({ title, description, location, org: host });
 
   return {
-    id: `engage-${hash(url)}`,
+    id: `engage-${hash(link || `${title}-${start || fetchedAt}`)}`,
     title,
-    host: org,
-    campus: inferCampusFromLocation(location),
-    location: location || '',
+    host,
+    campus,
+    location,
     description,
-    category: 'Giveaway',
+    category: classification.category,
     dietary: '',
-    link: url,
-    start: start ? new Date(start).toISOString() : null,
-    end: end ? new Date(end).toISOString() : null,
-    createdAt: new Date().toISOString()
+    link,
+    start,
+    end,
+    createdAt: fetchedAt,
+    source: 'engage-rss',
+    status,
+    feedCategories: categories,
+    classification
   };
 }
 
-function guessDate($, which) {
-  // Heuristic: look for time elements or labels
-  const timeEl = $('time').first().attr('datetime');
-  if (timeEl) return timeEl;
-  const text = $('body').text();
-  const m = text.match(/(\w{3,9} \d{1,2}, \d{4} .*?\d{1,2}:\d{2}\s?(AM|PM)?)/i);
-  return m ? m[0] : null;
+function parseDescriptionHtml(html = '') {
+  if (!html) {
+    return {
+      description: '',
+      location: '',
+      start: null,
+      end: null
+    };
+  }
+
+  const $ = loadHtml(html);
+  const description = cleanText($('.p-description').text());
+  const location = cleanText($('.p-location').first().text());
+  const start = safeToIso($('.dt-start').first().attr('datetime'));
+  const end = safeToIso($('.dt-end').first().attr('datetime'));
+
+  return { description, location, start, end };
 }
 
-function hash(s) {
-  let h = 0; for (let i = 0; i < s.length; i++) { h = (h*31 + s.charCodeAt(i))|0; }
-  return Math.abs(h).toString(36);
+function classifyEvent({ title = '', description = '', location = '' } = {}) {
+  const text = `${title} ${description} ${location}`.toLowerCase();
+  const matches = {
+    free: matchTerms(text, FOOD_SIGNALS.free),
+    pizza: matchTerms(text, FOOD_SIGNALS.pizza),
+    breakfast: matchTerms(text, FOOD_SIGNALS.breakfast),
+    lunch: matchTerms(text, FOOD_SIGNALS.lunch),
+    dinner: matchTerms(text, FOOD_SIGNALS.dinner),
+    snacks: matchTerms(text, FOOD_SIGNALS.snacks),
+    pantry: matchTerms(text, FOOD_SIGNALS.pantry),
+    general: matchTerms(text, FOOD_SIGNALS.general)
+  };
+
+  const score = (
+    matches.free.length * 4 +
+    matches.pantry.length * 4 +
+    matches.pizza.length * 3 +
+    matches.breakfast.length * 2 +
+    matches.lunch.length * 2 +
+    matches.dinner.length * 2 +
+    matches.snacks.length * 2 +
+    matches.general.length
+  );
+
+  const category = inferCategory(matches);
+  const uniqueMatches = [...new Set(Object.values(matches).flat())];
+  const isFoodRelated = matches.free.length > 0 || score >= 3;
+  const confidence = isFoodRelated ? Math.min(1, score / 8) : 0;
+
+  return {
+    isFoodRelated,
+    category,
+    confidence: Number(confidence.toFixed(2)),
+    matchedTerms: uniqueMatches
+  };
 }
 
-function inferCampusFromLocation(location = '') {
-  const s = location.toLowerCase();
-  if (s.includes('tulsa')) return 'Tulsa';
-  if (s.includes('oklahoma city') || s.includes('okc') || s.includes('health')) return 'OUHSC';
-  if (s.includes('norman') || s.includes('devon') || s.includes('sarkeys') || s.includes('bizzell')) return 'Norman';
+function inferCategory(matches) {
+  if (matches.pantry.length > 0) return 'Pantry';
+  if (matches.pizza.length > 0) return 'Pizza';
+  if (matches.breakfast.length > 0) return 'Breakfast';
+  if (matches.lunch.length > 0) return 'Lunch';
+  if (matches.dinner.length > 0) return 'Dinner';
+  if (matches.snacks.length > 0) return 'Snacks';
+  return 'Giveaway';
+}
+
+function matchTerms(text, terms) {
+  return terms.filter((term) => buildTermRegex(term).test(text));
+}
+
+function dedupeEvents(events) {
+  const seen = new Set();
+  const out = [];
+
+  for (const event of events) {
+    const key = buildDedupKey(event);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(event);
+  }
+
+  return out;
+}
+
+function buildDedupKey(event) {
+  const title = normalizeKeyPart(event.title);
+  const start = event.start || '';
+  const location = normalizeKeyPart(event.location);
+  return [title, start, location].join('|');
+}
+
+function normalizeKeyPart(value = '') {
+  return String(value).trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function inferCampus({ location = '', title = '', description = '' } = {}) {
+  const text = `${location} ${title} ${description}`.toLowerCase();
+  if (text.includes('tulsa')) return 'Tulsa';
+  if (text.includes('online') || text.includes('virtual') || text.includes('zoom')) return 'Online';
+  if (text.includes('ouhsc') || text.includes('oklahoma city') || text.includes('okc') || text.includes('health sciences')) return 'OUHSC';
+  if (text.includes('norman') || text.includes('devon') || text.includes('sarkeys') || text.includes('bizzell') || text.includes('oklahoma memorial union')) return 'Norman';
   return '';
 }
 
-main().catch(e => {
-  console.error(e);
+function buildTermRegex(term) {
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(^|[^a-z])${escaped}([^a-z]|$)`, 'i');
+}
+
+function safeToIso(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString();
+}
+
+function extractItemText($feed, node, selector) {
+  return cleanText($feed(node).find(selector).first().text());
+}
+
+function extractHostFromAuthor(author = '') {
+  const match = author.match(/\(([^)]+)\)\s*$/);
+  return cleanText(match ? match[1] : author);
+}
+
+function cleanText(value = '') {
+  return String(value).replace(/\s+/g, ' ').trim();
+}
+
+function hash(value) {
+  let result = 0;
+  for (let i = 0; i < value.length; i += 1) {
+    result = (result * 31 + value.charCodeAt(i)) | 0;
+  }
+  return Math.abs(result).toString(36);
+}
+
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });
-
-

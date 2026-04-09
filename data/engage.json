@@ -1,1 +1,780 @@
-[]
+[
+  {
+    "id": "engage-xga2wm",
+    "title": "Popcorn Thursday",
+    "host": "Office of Student Life",
+    "campus": "",
+    "location": "Student Life Suite",
+    "description": "Enjoy free popcorn from Student Life!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12098609",
+    "start": "2026-04-09T19:00:00.000Z",
+    "end": "2026-04-09T21:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free popcorn",
+        "popcorn"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7duo5",
+    "title": "RuSSA Annual Spring Cookout 2026",
+    "host": "Russian Speaking Student Association",
+    "campus": "",
+    "location": "TheVue Apartments",
+    "description": "Spring is in the air, and it’s time to celebrate with food, fun, and friends! Join the Russian Speaking Student Association for our Annual Spring Cookout. Enjoy the season, meet fellow students, and share some delicious food. The Event will be hosted at TheVue Apartments, located right across Traditions West, directly next to the 7Eleven. Date: Thursday, April 9th Time: 6:30 pm Location: Rooftop of the Vue",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12401169",
+    "start": "2026-04-09T23:30:00.000Z",
+    "end": "2026-04-10T01:30:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "cookout",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-yu86vj",
+    "title": "Campfire Cafe Game Night",
+    "host": "Union Programming Board",
+    "campus": "",
+    "location": "Conoco 3rd Floor",
+    "description": "Come Join Union Programming Board for another Union Week Event! Come hang and chill at our massive game night inspired by an internet cafe. There will be video games, board games, crafts, puzzles, free food, and more! Come choose your vibe for the night, bring your friends, and chill.",
+    "category": "Giveaway",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12373778",
+    "start": "2026-04-09T23:00:00.000Z",
+    "end": "2026-04-10T02:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Giveaway",
+      "confidence": 0.63,
+      "matchedTerms": [
+        "free food",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7h7ig",
+    "title": "April GBM 2026",
+    "host": "Association of Southeast Asian Nations",
+    "campus": "",
+    "location": "Nielsen Hall 170",
+    "description": "A spring themed event with egg painting and food (egg sandwiches, iced peach green tea lemonade, and pandan coconut cookies).",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12406958",
+    "start": "2026-04-10T00:00:00.000Z",
+    "end": "2026-04-10T02:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.63,
+      "matchedTerms": [
+        "cookies",
+        "tea",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-ydsbde",
+    "title": "Kairos: Eve of Nations 2026",
+    "host": "International Advisory Committee",
+    "campus": "",
+    "location": "McCasland Field House",
+    "description": "This vibrant, annual event, which welcomes everyone, is a competitive showcase and dinner where International Student Organizations (ISOs) present their heritage through dynamic performances and other creative expressions. It also features a stunning Fashion Show and engaging guest performances, all united under this year's theme – \"Kairos.\" It's a special opportunity to experience global culture, celebrate identity, and build connections across nations. Join us for a night of spectacular joy, food, and cultural immersion! Get your tickets here. https://www.eventbrite.com/e/eve-of-nations-2026-kairos-tickets-1984166749159?aff=oddtdtcreator",
+    "category": "Dinner",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12286914",
+    "start": "2026-04-10T23:00:00.000Z",
+    "end": "2026-04-11T03:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural",
+      "Performance"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Dinner",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "dinner",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-ybj835",
+    "title": "AISA Stomp Dance",
+    "host": "American Indian Student Association / Office of Student Life / What To Do",
+    "campus": "Norman",
+    "location": "First American United Methodist Church",
+    "description": "AISA alongside the Norman First American UMC is proudly hosting a Stomp dance! Join us, April 10th at the Norman First American UMC (1950 Beaumont Dr). Stomp Dance begins at 7 PM, but supper at 6 PM. There will be dinner and dancing! Not only will dinner and dancing take place, but there will also raffles, 50/50s, and concessions. We cannot wait to see you there!",
+    "category": "Dinner",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12243936",
+    "start": "2026-04-10T23:00:00.000Z",
+    "end": "2026-04-11T04:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Dinner",
+      "confidence": 0.5,
+      "matchedTerms": [
+        "dinner",
+        "supper"
+      ]
+    }
+  },
+  {
+    "id": "engage-xw67zl",
+    "title": "The Big Event 2026",
+    "host": "Alpha Lambda Delta",
+    "campus": "OUHSC",
+    "location": "University of Oklahoma Campus",
+    "description": "On Saturday, April 11th, 2026, the University of Oklahoma will celebrate the 27th year of The Big Event, OU’s largest day of community service. The Big Event brings together students, faculty, and staff to give back to the Norman and OKC metro communities as a heartfelt “thank you” for their continued support throughout the year. Volunteers will work on a variety of service projects that make a meaningful impact—all in just one day. Participants will receive all necessary supplies, a free lunch, water, and a Big Event T-shirt (while supplies last). Registration is completely free, and volunteers can sign up individually or as part of a group, including friends, roommates, classmates, coworkers, or student organizations. Join Alpha Lambda Delta Honor Society for a day of service, connection, and community impact—you won’t want to miss it! Volunteer Sign-Up Link: https://givepul.se/k7o0rk",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12175747",
+    "start": "2026-04-11T13:30:00.000Z",
+    "end": "2026-04-11T17:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "CommunityService"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free lunch",
+        "lunch"
+      ]
+    }
+  },
+  {
+    "id": "engage-ye8wc8",
+    "title": "The Big Event 2026",
+    "host": "The Big Event",
+    "campus": "OUHSC",
+    "location": "OU Duck Pond",
+    "description": "The Big Event is the University of Oklahoma’s official day of community service! On one Saturday in the spring, over 6,000 volunteers--students, faculty, and staff--come together to give back to the great Norman/OKC community that we call home throughout the school year. Making an impact on the community members and organizations that support our university in many ways makes The Big Event a genuinely fulfilling and memorable experience each year! Join us for the 27th annual Big Event on Saturday, April 11th, and get the chance to serve the community with your friends or organization! As a volunteer, you will begin your day at 8 am at the North Oval for our grand Opening Ceremony with free breakfast, goodies, hype from the OU spirit squad, and so much more! Following that, volunteering will take place from 10 AM to 2 PM at your assigned job site, where you will participate in various activities, such as painting, gardening, organizing, community interaction, etc. Don’t miss out on this spectacular opportunity! If you have any questions regarding volunteer registration or need any accommodations, please email bigevent@ou.edu.",
+    "category": "Breakfast",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12291837",
+    "start": "2026-04-11T13:00:00.000Z",
+    "end": "2026-04-11T19:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "CommunityService"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Breakfast",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free breakfast",
+        "breakfast"
+      ]
+    }
+  },
+  {
+    "id": "engage-yuq41b",
+    "title": "NOBCChE Campus Meetup Spring 2026",
+    "host": "National Organization for the Professional Advancement of Black Chemists and Chemical Engineers",
+    "campus": "",
+    "location": "Thurman J. White Forum Building",
+    "description": "This event is open to students and professionals interested in STEM and professional development. Come connect with faculty, industry professionals, and students while building your network and learning about career opportunities. We’ll have: Faculty and industry speakers Career development sessions Cross-campus networking NOBCChE leadership opportunities And yes… free breakfast, lunch, and professional headshots (limited spots available) Please take a moment to register using this link (https://forms.gle/ReuWHSTDgC5q9fLY8). We encourage you to sign up early, especially if you’re interested in the headshots.",
+    "category": "Breakfast",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12380994",
+    "start": "2026-04-11T14:00:00.000Z",
+    "end": "2026-04-11T19:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning",
+      "Meeting",
+      "Social",
+      "Workshop"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Breakfast",
+      "confidence": 1,
+      "matchedTerms": [
+        "free breakfast",
+        "breakfast",
+        "lunch"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7fw3m",
+    "title": "April General Body Meeting",
+    "host": "Nuclear Energy Society",
+    "campus": "",
+    "location": "REPF 200",
+    "description": "Come to our April General Body Meeting to hear about upcoming opportunities, including our KSU reactor tour, and learn about nuclear reactor components. Enjoy some free pizza courtesy of CDES",
+    "category": "Pizza",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12404774",
+    "start": "2026-04-14T00:00:00.000Z",
+    "end": "2026-04-14T01:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning",
+      "Meeting"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Pizza",
+      "confidence": 0.88,
+      "matchedTerms": [
+        "free pizza",
+        "pizza"
+      ]
+    }
+  },
+  {
+    "id": "engage-yvbngt",
+    "title": "Spring Bash",
+    "host": "Housing Center Student Association",
+    "campus": "",
+    "location": "Cross Village Courtyard",
+    "description": "Join us on April 13th in the Cross Courtyard from 5–9 PM for our final HCSA event of the semester! - Petting Zoo- Mechanical Bull- Inflatable Games & Bungee Trampoline- Bear Decorating- Popcorn & Cotton Candy- Food Trucks Bring your friends and come celebrate the end of the semester with us!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12393114",
+    "start": "2026-04-13T22:00:00.000Z",
+    "end": "2026-04-14T02:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "popcorn",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7d70e",
+    "title": "MEDLIFE & Pre-Med Club Hosting Dermatologist Dr. Grau",
+    "host": "MEDLIFE / Pre-Medical Club",
+    "campus": "",
+    "location": "Dale Hall",
+    "description": "MEDLIFE and the Pre-Med Club will host a dermatologist to speak! Come hang out and listen to Dr. Grau talk about her journey to medicine and dermatology. We will have some snacks and drinks!!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12400095",
+    "start": "2026-04-15T23:30:00.000Z",
+    "end": "2026-04-16T00:30:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning",
+      "Academic/Educational",
+      "Meeting"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.5,
+      "matchedTerms": [
+        "snacks",
+        "drinks"
+      ]
+    }
+  },
+  {
+    "id": "engage-yrkyu1",
+    "title": "Beading Circle",
+    "host": "Indigenous Art Forms",
+    "campus": "",
+    "location": "Five Moons Lounge - Copeland hall",
+    "description": "Indigenous Art Forms is hosting a beading/craft circle in the Five Moons Lounge from 7pm-9pm! Everyone is welcome and there will be free food!! Wednesday, April 15th. 7:00pm-9:00pm. Five Moons Lounge. Copeland Hall.",
+    "category": "Giveaway",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12329360",
+    "start": "2026-04-16T00:00:00.000Z",
+    "end": "2026-04-16T02:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural",
+      "Workshop"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Giveaway",
+      "confidence": 0.63,
+      "matchedTerms": [
+        "free food",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-xga2x8",
+    "title": "Popcorn Thursday",
+    "host": "Office of Student Life",
+    "campus": "",
+    "location": "Student Life Suite",
+    "description": "Enjoy free popcorn from Student Life!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12098610",
+    "start": "2026-04-16T19:00:00.000Z",
+    "end": "2026-04-16T21:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free popcorn",
+        "popcorn"
+      ]
+    }
+  },
+  {
+    "id": "engage-yvcxl6",
+    "title": "Campus Corner Social",
+    "host": "Tau Beta Pi",
+    "campus": "",
+    "location": "The Library Bar and Grill",
+    "description": "Come celebrate our Founder's Day with FREE dinner and chats at a restaurant on campus corner!",
+    "category": "Dinner",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12395179",
+    "start": "2026-04-16T21:00:00.000Z",
+    "end": "2026-04-16T23:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social",
+      "Meeting"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Dinner",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free dinner",
+        "dinner"
+      ]
+    }
+  },
+  {
+    "id": "engage-yrhqa0",
+    "title": "Medical Spanish Workshop",
+    "host": "Hispanic American Student Association / HOSA- Future Health Professionals / Kidney Disease Screening and Awareness Program / Latino Medical Student Association + / Pre-Dental Club / Spanish Language Club",
+    "campus": "",
+    "location": "Jim Thorpe Multicultural Center, Multipurpose Room B and C",
+    "description": "Join us for our second Medical Spanish Workshop! Learn practical Spanish phrases and engage in real life medical conversations to strengthen your skills. This event is open to all levels of Spanish speakers! Location: Jim Thorpe Multicultural Center, Multipurpose Room B and C Date: April 16th⏰ Time: 6:00–7:30pm Whether you're pre-med, pre-PA, pre-dental, nursing, or simply interested in improving communication with Spanish-speaking patients, this workshop is the perfect place to start. We'll kick off the evening with a welcome dinner at 6:00 PM, followed by guided rotations through hands-on medical Spanish learning stations. Participants will receive a \"medical passport\" to collect stamps at each station. Students will rotate through stations focused on real healthcare communication scenarios, including: Physical Exam – Learn common instructions used during check-ups Clinical Interview – Practice taking patient histories in Spanish Medical Terminology – Build essential vocabulary for symptoms and conditions Intake Forms – Practice completing real clinical forms in Spanish Medication Instructions – Learn how to explain prescriptions and treatment plans⚖️ Medical Decision-Making – Explore conversations about patient preferences and advance directives With a rapidly growing Hispanic population and many Spanish-speaking patients seeking care in community and student-led clinics, even basic medical Spanish is an invaluable skill for future healthcare professionals. Come connect with members from HOSA-Future Health Professionals, KDSAP, LMSA, HASA, Pre-Dental Club and the OU Spanish Language Club, and learn about ways to get involved at OU. Free food and drinks will be provided!",
+    "category": "Dinner",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12324106",
+    "start": "2026-04-16T23:00:00.000Z",
+    "end": "2026-04-17T00:30:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Cultural",
+      "Academic/Educational",
+      "Workshop"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Dinner",
+      "confidence": 1,
+      "matchedTerms": [
+        "free food",
+        "dinner",
+        "drinks",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-yubdup",
+    "title": "The Big Event 2026 Alternative Date (April 18th, 2026)",
+    "host": "The Big Event",
+    "campus": "OUHSC",
+    "location": "OU Du",
+    "description": "The Big Event is the University of Oklahoma’s official day of community service! On one Saturday in the spring, over 6,000 volunteers--students, faculty, and staff--come together to give back to the great Norman/OKC community that we call home throughout the school year. Making an impact on the community members and organizations that support our university in many ways makes The Big Event a genuinely fulfilling and memorable experience each year! Join us for the 27th annual Big Event on Saturday, April 18th, and get the chance to serve the community with your friends or organization! As a volunteer, you will begin your day at 8 am at the North Oval for our grand Opening Ceremony with free breakfast, goodies, hype from the OU spirit squad, and so much more! Following that, volunteering will take place from 10 AM to 2 PM at your assigned job site, where you will participate in various activities, such as painting, gardening, organizing, community interaction, etc. Don’t miss out on this spectacular opportunity! If you have any questions regarding volunteer registration or need any accommodations, please email bigevent@ou.edu.",
+    "category": "Breakfast",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12378791",
+    "start": "2026-04-18T13:00:00.000Z",
+    "end": "2026-04-18T19:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "CommunityService"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Breakfast",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free breakfast",
+        "breakfast"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7el7t",
+    "title": "Kolor Love Pool Party",
+    "host": "Delta Sigma Theta Sorority, Incorporated / Kappa Alpha Psi Fraternity Inc.",
+    "campus": "Norman",
+    "location": "Redpoint Norman",
+    "description": "This annual event is proudly hosted by the members of the Kappa Alpha Chapter of Delta Sigma Theta Sorority, Inc. and the Zeta Omega Chapter of Kappa Alpha Psi Fraternity, Inc. as we celebrate our charter day. Join us for an exciting pool party featuring great food, refreshing drinks, and music that will keep the energy high all day long. Come out, relax, and enjoy a fun-filled day with great vibes and even better company!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12402603",
+    "start": "2026-04-18T21:00:00.000Z",
+    "end": "2026-04-19T02:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "drinks",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-z7f5b6",
+    "title": "Make Your Own Travel Bags with Cross Community Council",
+    "host": "Housing Center Student Association",
+    "campus": "",
+    "location": "Cross A Lobby",
+    "description": "Come over to the Cross A lobby for free food (pizza) and crafts(tote bag decorating)!! Create the perfect tote bag with tons of fun travel necessities!",
+    "category": "Pizza",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12403234",
+    "start": "2026-04-21T23:00:00.000Z",
+    "end": "2026-04-22T00:30:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Pizza",
+      "confidence": 1,
+      "matchedTerms": [
+        "free food",
+        "pizza",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-yuujfp",
+    "title": "Earth Day Fair",
+    "host": "Green Week",
+    "campus": "",
+    "location": "OU South OVAL",
+    "description": "Are you ready to celebrate 56 years of Earth Day? Join Green Week on the South Oval in celebration of 56 years of Earth Day! We will have different organizations from across campus tabling, food, ice cream, and yard games. Make sure to stop by to see what Green Week's all about!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12387782",
+    "start": "2026-04-22T15:00:00.000Z",
+    "end": "2026-04-22T19:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "ice cream",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-yvbsnt",
+    "title": "Tulip Farm Workday",
+    "host": "Outdoor Club",
+    "campus": "Norman",
+    "location": "Sweet Pea Farm",
+    "description": "Join us to help Amy over at Sweet Pea Farm in Norman, Oklahoma! We will be helping tend her tulip garden to ensure her local farm prospers. Snacks and drinks will be provided for all attendees.",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12393819",
+    "start": "2026-04-22T22:00:00.000Z",
+    "end": "2026-04-23T01:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "CommunityService",
+      "Service"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.5,
+      "matchedTerms": [
+        "snacks",
+        "drinks"
+      ]
+    }
+  },
+  {
+    "id": "engage-xga2x9",
+    "title": "Popcorn Thursday",
+    "host": "Office of Student Life",
+    "campus": "",
+    "location": "Student Life Suite",
+    "description": "Enjoy free popcorn from Student Life!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12098611",
+    "start": "2026-04-23T19:00:00.000Z",
+    "end": "2026-04-23T21:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free popcorn",
+        "popcorn"
+      ]
+    }
+  },
+  {
+    "id": "engage-yu6sb2",
+    "title": "GeoCareers Day",
+    "host": "Sigma Gamma Epsilon",
+    "campus": "",
+    "location": "SEC P340",
+    "description": "Come hear from Dr. Lena Cole and Andrew Oordt on their career journeys in paleontology and environmental work, respectively! Are you curious about geology-oriented career options after graduation? This event is for you. FREE lunch will be provided as well as a networking opportunity with our guest speakers.",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12371115",
+    "start": "2026-04-24T16:00:00.000Z",
+    "end": "2026-04-24T18:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free lunch",
+        "lunch"
+      ]
+    }
+  },
+  {
+    "id": "engage-yuvusu",
+    "title": "Denim Day Lunch'n Learn",
+    "host": "Office of Advocacy and Education / OU Food Pantry / OU Higher Education Prevention Services",
+    "campus": "",
+    "location": "Regents & Associates Rooms, OMU",
+    "description": "Staff and faculty of the University of Oklahoma are welcome for free entry to our lunch'n learn event! This event is honoring Denim Day, so attendees MUST wear some form of denim to be allowed entry. Food is provided, free of charge. Guest speaker Anna Nasset will be presenting her iconic GET TO WORK: Workplace Culture and Care workshop! (full/part-time and student staff welcome)",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12389947",
+    "start": "2026-04-29T17:00:00.000Z",
+    "end": "2026-04-29T20:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning",
+      "Academic/Educational",
+      "Social",
+      "Workshop"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "lunch",
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "engage-xga2xa",
+    "title": "Popcorn Thursday",
+    "host": "Office of Student Life",
+    "campus": "",
+    "location": "Student Life Suite",
+    "description": "Enjoy free popcorn from Student Life!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12098612",
+    "start": "2026-04-30T19:00:00.000Z",
+    "end": "2026-04-30T21:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free popcorn",
+        "popcorn"
+      ]
+    }
+  },
+  {
+    "id": "engage-xga2xb",
+    "title": "Popcorn Thursday",
+    "host": "Office of Student Life",
+    "campus": "",
+    "location": "Student Life Suite",
+    "description": "Enjoy free popcorn from Student Life!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12098613",
+    "start": "2026-05-07T19:00:00.000Z",
+    "end": "2026-05-07T21:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free popcorn",
+        "popcorn"
+      ]
+    }
+  },
+  {
+    "id": "engage-yrzmsi",
+    "title": "Study With Cooking Club",
+    "host": "Cooking Club",
+    "campus": "",
+    "location": "Crossroads Lounge",
+    "description": "Come join Cooking Club in studying for finals! There will be free snacks and drinks to fuel you!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12331261",
+    "start": "2026-05-08T21:00:00.000Z",
+    "end": "2026-05-09T00:00:00.000Z",
+    "createdAt": "2026-04-09T04:12:17.701Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning",
+      "Academic/Educational"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 1,
+      "matchedTerms": [
+        "free snacks",
+        "snacks",
+        "drinks"
+      ]
+    }
+  }
+]

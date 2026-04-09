@@ -116,7 +116,7 @@ function wireEvents() {
   function shiftAnchor(direction) {
     const a = calendarState.anchor;
     if (calendarState.view === "week") {
-      a.setDate(a.getDate() + direction * -7); // will be corrected below
+      a.setDate(a.getDate() + direction * 7);
       calendarState.anchor = new Date(a);
     } else if (calendarState.view === "month") {
       calendarState.anchor = new Date(a.getFullYear(), a.getMonth() + direction, 1);
@@ -140,7 +140,7 @@ async function loadData() {
       fetch(EVENTS_JSON_URL).then(r => r.json()),
       loadLocalEvents()
     ]);
-    state.events = normalizeEvents(remote);
+    state.events = dedupeEvents(normalizeEvents(remote));
     state.localEvents = normalizeEvents(local);
   } catch (e) {
     console.error("Failed to load data", e);
@@ -159,7 +159,7 @@ async function importFromEngage() {
     const res = await fetch('data/engage.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('No engage.json yet');
     const list = await res.json();
-    const merged = dedupeById([...state.events, ...normalizeEvents(list)]);
+    const merged = dedupeEvents([...state.events, ...normalizeEvents(list)]);
     state.events = merged;
     applyFiltersAndRender();
     showToast(`Imported ${list.length} Engage event(s).`);
@@ -186,15 +186,39 @@ function stripHtml(html) {
   return div.textContent || div.innerText || "";
 }
 
-function dedupeById(arr) {
-  const seen = new Set();
-  const out = [];
-  for (const it of arr) {
-    if (seen.has(it.id)) continue;
-    seen.add(it.id);
-    out.push(it);
+async function fetchOptionalJson(url) {
+  try {
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) return [];
+    return await response.json();
+  } catch {
+    return [];
   }
-  return out;
+}
+
+function dedupeEvents(items) {
+  const seen = new Set();
+  const output = [];
+  for (const item of items) {
+    const key = buildEventDedupKey(item);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    output.push(item);
+  }
+  return output;
+}
+
+function buildEventDedupKey(item) {
+  const contentKey = [
+    normalizeKeyPart(item.title),
+    item.start || "",
+    normalizeKeyPart(item.location)
+  ].join("|");
+  return contentKey !== "||" ? contentKey : (item.id ? `id:${item.id}` : cryptoRandomId());
+}
+
+function normalizeKeyPart(value = "") {
+  return String(value).trim().toLowerCase().replace(/\s+/g, " ");
 }
 
 function normalizeEvents(items) {
@@ -213,6 +237,7 @@ function normalizeEvents(items) {
       start: item.start ? new Date(item.start).toISOString() : null,
       end: item.end ? new Date(item.end).toISOString() : null,
       createdAt: item.createdAt ? new Date(item.createdAt).toISOString() : new Date().toISOString(),
+      source: item.source || "",
     }))
     .filter(e => e.start);
 }
@@ -329,6 +354,7 @@ function renderCard(ev) {
     <div class="meta">
       <span class="badge" title="Campus">🏫 ${ev.campus || ""}</span>
       <span class="badge" title="Category" data-cat="${escapeAttr(ev.category || "")}">🍽️ ${ev.category || ""}</span>
+      ${renderSourceBadge(ev)}
       ${ev.dietary ? `<span class="badge" title="Dietary">🥗 ${escapeHtml(ev.dietary)}</span>` : ""}
     </div>
     <h3>${escapeHtml(ev.title)}</h3>
@@ -347,6 +373,13 @@ function renderCard(ev) {
     </div>
   `;
   return card;
+}
+
+function renderSourceBadge(ev) {
+  if (ev.source === "engage-rss" || ev.source === "engage") {
+    return `<span class="badge" title="Public OU Engage source">🌐 Engage</span>`;
+  }
+  return "";
 }
 
 function renderMonthCalendar(items) {
@@ -605,5 +638,3 @@ function isSameDay(a, b) {
 function formatTime(d) {
   return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
 }
-
-
