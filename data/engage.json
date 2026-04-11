@@ -1,65 +1,5 @@
 [
   {
-    "id": "engage-ye8wc8",
-    "title": "The Big Event 2026",
-    "host": "The Big Event",
-    "campus": "OUHSC",
-    "location": "OU Duck Pond",
-    "description": "The Big Event is the University of Oklahoma’s official day of community service! On one Saturday in the spring, over 6,000 volunteers--students, faculty, and staff--come together to give back to the great Norman/OKC community that we call home throughout the school year. Making an impact on the community members and organizations that support our university in many ways makes The Big Event a genuinely fulfilling and memorable experience each year! Join us for the 27th annual Big Event on Saturday, April 11th, and get the chance to serve the community with your friends or organization! As a volunteer, you will begin your day at 8 am at the North Oval for our grand Opening Ceremony with free breakfast, goodies, hype from the OU spirit squad, and so much more! Following that, volunteering will take place from 10 AM to 2 PM at your assigned job site, where you will participate in various activities, such as painting, gardening, organizing, community interaction, etc. Don’t miss out on this spectacular opportunity! If you have any questions regarding volunteer registration or need any accommodations, please email bigevent@ou.edu.",
-    "category": "Breakfast",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12291837",
-    "start": "2026-04-11T13:00:00.000Z",
-    "end": "2026-04-11T19:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "CommunityService"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Breakfast",
-      "confidence": 0.75,
-      "matchedTerms": [
-        "free breakfast",
-        "breakfast"
-      ]
-    }
-  },
-  {
-    "id": "engage-yuq41b",
-    "title": "NOBCChE Campus Meetup Spring 2026",
-    "host": "National Organization for the Professional Advancement of Black Chemists and Chemical Engineers",
-    "campus": "",
-    "location": "Thurman J. White Forum Building",
-    "description": "This event is open to students and professionals interested in STEM and professional development. Come connect with faculty, industry professionals, and students while building your network and learning about career opportunities. We’ll have: Faculty and industry speakers Career development sessions Cross-campus networking NOBCChE leadership opportunities And yes… free breakfast, lunch, and professional headshots (limited spots available) Please take a moment to register using this link (https://forms.gle/ReuWHSTDgC5q9fLY8). We encourage you to sign up early, especially if you’re interested in the headshots.",
-    "category": "Breakfast",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12380994",
-    "start": "2026-04-11T14:00:00.000Z",
-    "end": "2026-04-11T19:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning",
-      "Meeting",
-      "Social",
-      "Workshop"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Breakfast",
-      "confidence": 1,
-      "matchedTerms": [
-        "free breakfast",
-        "breakfast",
-        "lunch"
-      ]
-    }
-  },
-  {
     "id": "engage-z7fw3m",
     "title": "April General Body Meeting",
     "host": "Nuclear Energy Society",
@@ -71,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12404774",
     "start": "2026-04-14T00:00:00.000Z",
     "end": "2026-04-14T01:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -100,7 +40,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12393114",
     "start": "2026-04-13T22:00:00.000Z",
     "end": "2026-04-14T02:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -128,7 +68,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12400095",
     "start": "2026-04-15T23:30:00.000Z",
     "end": "2026-04-16T00:30:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -158,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12329360",
     "start": "2026-04-16T00:00:00.000Z",
     "end": "2026-04-16T02:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -187,7 +127,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098610",
     "start": "2026-04-16T19:00:00.000Z",
     "end": "2026-04-16T21:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -215,7 +155,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12395179",
     "start": "2026-04-16T21:00:00.000Z",
     "end": "2026-04-16T23:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -244,7 +184,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12324106",
     "start": "2026-04-16T23:00:00.000Z",
     "end": "2026-04-17T00:30:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -276,7 +216,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12412065",
     "start": "2026-04-16T23:00:00.000Z",
     "end": "2026-04-17T01:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -305,7 +245,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12378791",
     "start": "2026-04-18T13:00:00.000Z",
     "end": "2026-04-18T19:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -333,7 +273,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12402603",
     "start": "2026-04-18T21:00:00.000Z",
     "end": "2026-04-19T02:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -361,7 +301,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12403234",
     "start": "2026-04-21T23:00:00.000Z",
     "end": "2026-04-22T00:30:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -390,7 +330,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12387782",
     "start": "2026-04-22T15:00:00.000Z",
     "end": "2026-04-22T19:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -418,7 +358,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12393819",
     "start": "2026-04-22T22:00:00.000Z",
     "end": "2026-04-23T01:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -447,7 +387,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098611",
     "start": "2026-04-23T19:00:00.000Z",
     "end": "2026-04-23T21:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -475,7 +415,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12371115",
     "start": "2026-04-24T16:00:00.000Z",
     "end": "2026-04-24T18:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -503,7 +443,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12412027",
     "start": "2026-04-29T14:00:00.000Z",
     "end": "2026-04-29T17:30:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -532,7 +472,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12389947",
     "start": "2026-04-29T17:00:00.000Z",
     "end": "2026-04-29T20:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -563,7 +503,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098612",
     "start": "2026-04-30T19:00:00.000Z",
     "end": "2026-04-30T21:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -591,7 +531,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -619,7 +559,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-11T18:57:41.533Z",
+    "createdAt": "2026-04-11T19:42:33.626Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
