@@ -1,36 +1,5 @@
 [
   {
-    "id": "engage-z92nm4",
-    "title": "LLM Engineering Club Study Session and LLM/AI News Event",
-    "host": "LLM Engineering Club",
-    "campus": "Norman",
-    "location": "Devon Energy Hall - Room 420 (Forth Floor)",
-    "description": "We want to invite you to our upcoming event! We are hosting a Study Session and LLM/AI News discussion on April 19 from 12 PM to 4 PM at Devon Energy Hall, Room 420. The LLM Engineering Club at OU is a new student organization dedicated to Large Language Models. We provide a space for students to get direct practical experience with this technology. We explore many aspects of artificial intelligence. We teach you how to train your own language models for different use cases, and we also focus on using existing models effectively. Our regular activities feature workshops, talks, and study groups where members learn how to build real projects and use these tools responsibly. This group is also an excellent opportunity to socialize and meet peers in the exact same field! This club was founded by Arash Ahmadi, an ECE PhD student whose academic research focuses on Large Language Models. We do serious work, but we also heavily prioritize fun and gamified experiences. Stay tuned for some exciting workshops we have planned for the near future! We will cover interesting news and updates about Large Language Models for the first 30 minutes. We will also share more details about the club itself. Afterward, we will transition into a collaborative study space. Free food is provided for all attendees. The exact meal is a mystery, but we promise it is definitely not pizza! Please arrive early to grab something to eat. Please stop by to learn more about the club or just to get some studying done. We hope to see you there.",
-    "category": "Pizza",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12433868",
-    "start": "2026-04-19T17:00:00.000Z",
-    "end": "2026-04-19T21:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning",
-      "Academic/Educational"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Pizza",
-      "confidence": 1,
-      "matchedTerms": [
-        "free food",
-        "pizza",
-        "meal",
-        "food"
-      ]
-    }
-  },
-  {
     "id": "engage-z7f5b6",
     "title": "Make Your Own Travel Bags with Cross Community Council",
     "host": "Housing Center Student Association",
@@ -42,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12403234",
     "start": "2026-04-21T23:00:00.000Z",
     "end": "2026-04-22T00:30:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -71,7 +40,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12387782",
     "start": "2026-04-22T15:00:00.000Z",
     "end": "2026-04-22T19:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -99,7 +68,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12393819",
     "start": "2026-04-22T22:00:00.000Z",
     "end": "2026-04-23T01:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -128,7 +97,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098611",
     "start": "2026-04-23T19:00:00.000Z",
     "end": "2026-04-23T21:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -156,7 +125,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12433856",
     "start": "2026-04-23T23:00:00.000Z",
     "end": "2026-04-24T01:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -184,7 +153,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12371115",
     "start": "2026-04-24T16:00:00.000Z",
     "end": "2026-04-24T18:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -212,7 +181,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12421170",
     "start": "2026-04-27T15:00:00.000Z",
     "end": "2026-04-27T17:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -242,7 +211,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12427092",
     "start": "2026-04-28T00:00:00.000Z",
     "end": "2026-04-28T01:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -271,7 +240,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12419927",
     "start": "2026-04-28T22:00:00.000Z",
     "end": "2026-04-29T01:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -300,7 +269,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12412027",
     "start": "2026-04-29T14:00:00.000Z",
     "end": "2026-04-29T17:30:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -329,7 +298,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12389947",
     "start": "2026-04-29T17:00:00.000Z",
     "end": "2026-04-29T20:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -360,7 +329,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098612",
     "start": "2026-04-30T19:00:00.000Z",
     "end": "2026-04-30T21:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -388,7 +357,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12435994",
     "start": "2026-04-30T23:00:00.000Z",
     "end": "2026-05-01T01:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -417,7 +386,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -445,7 +414,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-19T20:03:05.280Z",
+    "createdAt": "2026-04-19T21:04:55.881Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
