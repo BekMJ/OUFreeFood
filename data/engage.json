@@ -11,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12437516",
     "start": "2026-04-22T23:00:00.000Z",
     "end": "2026-04-23T00:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -41,7 +41,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12393819",
     "start": "2026-04-22T22:00:00.000Z",
     "end": "2026-04-23T01:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -70,7 +70,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12433856",
     "start": "2026-04-23T23:00:00.000Z",
     "end": "2026-04-24T01:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -98,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12371115",
     "start": "2026-04-24T16:00:00.000Z",
     "end": "2026-04-24T18:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -126,7 +126,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12442662",
     "start": "2026-04-26T19:00:00.000Z",
     "end": "2026-04-26T21:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -154,7 +154,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12421170",
     "start": "2026-04-27T15:00:00.000Z",
     "end": "2026-04-27T17:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -184,7 +184,7 @@
     "link": "https://ou.campuslabs.com/engage/event/11989421",
     "start": "2026-04-27T18:30:00.000Z",
     "end": "2026-04-27T21:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -202,6 +202,35 @@
     }
   },
   {
+    "id": "engage-z9n3sc",
+    "title": "Penne for Your Thoughts",
+    "host": "OU Food Pantry",
+    "campus": "",
+    "location": "OU Food Pantry",
+    "description": "You deserve a break! Join us for macaroni arts and crafts on Monday April 27th, 2026 from 5-7pm at the OU Food Pantry.",
+    "category": "Pantry",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12444901",
+    "start": "2026-04-27T22:00:00.000Z",
+    "end": "2026-04-28T00:00:00.000Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "CommunityService"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Pantry",
+      "confidence": 1,
+      "matchedTerms": [
+        "pantry",
+        "food pantry",
+        "food"
+      ]
+    }
+  },
+  {
     "id": "engage-z8l93q",
     "title": "Center for Social Justice Advisory Board Meeting",
     "host": "Center for Social Justice Advisory Board",
@@ -213,7 +242,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12427092",
     "start": "2026-04-28T00:00:00.000Z",
     "end": "2026-04-28T01:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -242,7 +271,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12419927",
     "start": "2026-04-28T22:00:00.000Z",
     "end": "2026-04-29T01:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -271,7 +300,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12412027",
     "start": "2026-04-29T14:00:00.000Z",
     "end": "2026-04-29T17:30:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -300,7 +329,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12389947",
     "start": "2026-04-29T17:00:00.000Z",
     "end": "2026-04-29T20:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -320,6 +349,34 @@
     }
   },
   {
+    "id": "engage-z9n35a",
+    "title": "Mr. Engineering Pageant",
+    "host": "Society of Women Engineers",
+    "campus": "",
+    "location": "REPF 200",
+    "description": "Free food and audience prizes",
+    "category": "Giveaway",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12444848",
+    "start": "2026-04-29T23:30:00.000Z",
+    "end": "2026-04-30T01:00:00.000Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Giveaway",
+      "confidence": 0.63,
+      "matchedTerms": [
+        "free food",
+        "food"
+      ]
+    }
+  },
+  {
     "id": "engage-xga2xa",
     "title": "Popcorn Thursday",
     "host": "Office of Student Life",
@@ -331,7 +388,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098612",
     "start": "2026-04-30T19:00:00.000Z",
     "end": "2026-04-30T21:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -359,7 +416,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12435994",
     "start": "2026-04-30T23:00:00.000Z",
     "end": "2026-05-01T01:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -388,7 +445,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -416,7 +473,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-22T20:10:20.466Z",
+    "createdAt": "2026-04-22T21:28:26.412Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
