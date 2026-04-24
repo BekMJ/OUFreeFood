@@ -1,33 +1,5 @@
 [
   {
-    "id": "engage-yu6sb2",
-    "title": "GeoCareers Day",
-    "host": "Sigma Gamma Epsilon",
-    "campus": "",
-    "location": "SEC P340",
-    "description": "Come hear from Dr. Lena Cole and Andrew Oordt on their career journeys in paleontology and environmental work, respectively! Are you curious about geology-oriented career options after graduation? This event is for you. FREE lunch will be provided as well as a networking opportunity with our guest speakers.",
-    "category": "Lunch",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12371115",
-    "start": "2026-04-24T16:00:00.000Z",
-    "end": "2026-04-24T18:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Lunch",
-      "confidence": 0.75,
-      "matchedTerms": [
-        "free lunch",
-        "lunch"
-      ]
-    }
-  },
-  {
     "id": "engage-z9lrqe",
     "title": "Founder's Day",
     "host": "Pi Beta Phi",
@@ -39,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12442662",
     "start": "2026-04-26T19:00:00.000Z",
     "end": "2026-04-26T21:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -67,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12421170",
     "start": "2026-04-27T15:00:00.000Z",
     "end": "2026-04-27T17:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -97,7 +69,7 @@
     "link": "https://ou.campuslabs.com/engage/event/11989421",
     "start": "2026-04-27T18:30:00.000Z",
     "end": "2026-04-27T21:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -126,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12444901",
     "start": "2026-04-27T22:00:00.000Z",
     "end": "2026-04-28T00:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -146,16 +118,16 @@
   {
     "id": "engage-z8l93q",
     "title": "Center for Social Justice Advisory Board Meeting",
-    "host": "Center for Social Justice Advisory Board",
+    "host": "Center for Social Justice Student Advisory Board",
     "campus": "",
-    "location": "Robertson Hall Room 101",
+    "location": "Robertson Hall Room 100",
     "description": "At our upcoming meeting, we’ll be discussing and planning club matters for next semester, including ideas and goals for the Fall 2026 term. Leadership positions will also be appointed, so come prepared in case you’d like to run. Plus, there will be free pizza!",
     "category": "Pizza",
     "dietary": "",
     "link": "https://ou.campuslabs.com/engage/event/12427092",
     "start": "2026-04-28T00:00:00.000Z",
     "end": "2026-04-28T01:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -184,7 +156,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12419927",
     "start": "2026-04-28T22:00:00.000Z",
     "end": "2026-04-29T01:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -213,7 +185,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12412027",
     "start": "2026-04-29T14:00:00.000Z",
     "end": "2026-04-29T17:30:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -242,7 +214,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12389947",
     "start": "2026-04-29T17:00:00.000Z",
     "end": "2026-04-29T20:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -273,7 +245,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12444848",
     "start": "2026-04-29T23:30:00.000Z",
     "end": "2026-04-30T01:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -301,7 +273,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098612",
     "start": "2026-04-30T19:00:00.000Z",
     "end": "2026-04-30T21:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -329,7 +301,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12435994",
     "start": "2026-04-30T23:00:00.000Z",
     "end": "2026-05-01T01:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -358,7 +330,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -386,7 +358,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-24T17:54:01.610Z",
+    "createdAt": "2026-04-24T19:04:44.783Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
