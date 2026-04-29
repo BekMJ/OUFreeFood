@@ -1,34 +1,5 @@
 [
   {
-    "id": "engage-z7y9eu",
-    "title": "TBPantry Visit Norman Food & Shelter",
-    "host": "Tau Beta Pi",
-    "campus": "Norman",
-    "location": "Norman Food & Shelter",
-    "description": "Come serve with us as a chapter and give back to our community! There will be two shifts: 9 - 10:30 am (Shelf - Stocker) 10:30 - 12:30 (Serving Lunch) Sign up to volunteer HERE!",
-    "category": "Lunch",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12412027",
-    "start": "2026-04-29T14:00:00.000Z",
-    "end": "2026-04-29T17:30:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "CommunityService",
-      "Service"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Lunch",
-      "confidence": 0.38,
-      "matchedTerms": [
-        "lunch",
-        "food"
-      ]
-    }
-  },
-  {
     "id": "engage-yuvusu",
     "title": "Denim Day Lunch'n Learn",
     "host": "Office of Advocacy and Education / OU Food Pantry / OU Higher Education Prevention Services",
@@ -40,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12389947",
     "start": "2026-04-29T17:00:00.000Z",
     "end": "2026-04-29T20:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -71,7 +42,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12444848",
     "start": "2026-04-29T23:30:00.000Z",
     "end": "2026-04-30T01:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -99,7 +70,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12452029",
     "start": "2026-04-29T23:00:00.000Z",
     "end": "2026-04-30T01:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -128,7 +99,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098612",
     "start": "2026-04-30T19:00:00.000Z",
     "end": "2026-04-30T21:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -156,7 +127,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12452082",
     "start": "2026-04-30T23:00:00.000Z",
     "end": "2026-05-01T00:30:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -185,7 +156,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12435994",
     "start": "2026-04-30T23:00:00.000Z",
     "end": "2026-05-01T01:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -214,7 +185,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -242,7 +213,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -272,7 +243,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453291",
     "start": "2026-05-09T15:00:00.000Z",
     "end": "2026-05-09T22:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -301,7 +272,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453292",
     "start": "2026-05-10T18:00:00.000Z",
     "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -330,7 +301,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -359,7 +330,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-04-29T16:15:40.762Z",
+    "createdAt": "2026-04-29T17:58:57.660Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
