@@ -1,63 +1,5 @@
 [
   {
-    "id": "engage-za5fxb",
-    "title": "Measuring the Unmeasurable: Making sense of Quantum Spin Liquids [Dr. Erik Henriksen from Washington University]",
-    "host": "Society of Physics Students",
-    "campus": "",
-    "location": "Lin Hall, Room 105",
-    "description": "On Thursday, April 30th, 6 PM, the Society of Physics student is hosting Dr. Erik Henriksin to give an in-person presentation on introducing students of all backgrounds (all students, physics or not are welcome!) to Quantum Spin Liquids. Free pizza and Soda will be provided",
-    "category": "Pizza",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12452082",
-    "start": "2026-04-30T23:00:00.000Z",
-    "end": "2026-05-01T00:30:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning",
-      "Academic/Educational"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Pizza",
-      "confidence": 0.88,
-      "matchedTerms": [
-        "free pizza",
-        "pizza"
-      ]
-    }
-  },
-  {
-    "id": "engage-z93yec",
-    "title": "Urdu Literature Night",
-    "host": "Urdu Club",
-    "campus": "",
-    "location": "Thurman J. White Forum Building",
-    "description": "Come join us for a night of Urdu arts, music, and, most importantly, free food! Hear from special guest Syed Baqar M Rizvi, a PhD candidate from the University of Texas' South Asia Institute, about the beauty and history of Urdu poetry and literature.",
-    "category": "Giveaway",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12435994",
-    "start": "2026-04-30T23:00:00.000Z",
-    "end": "2026-05-01T01:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "Arts",
-      "Cultural"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Giveaway",
-      "confidence": 0.63,
-      "matchedTerms": [
-        "free food",
-        "food"
-      ]
-    }
-  },
-  {
     "id": "engage-xga2xb",
     "title": "Popcorn Thursday",
     "host": "Office of Student Life",
@@ -69,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -97,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -127,7 +69,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453291",
     "start": "2026-05-09T15:00:00.000Z",
     "end": "2026-05-09T22:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -156,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12456056",
     "start": "2026-05-09T21:00:00.000Z",
     "end": "2026-05-10T03:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -184,7 +126,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453292",
     "start": "2026-05-10T18:00:00.000Z",
     "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -213,7 +155,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -242,7 +184,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-04-30T23:31:08.722Z",
+    "createdAt": "2026-05-01T04:03:03.622Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
