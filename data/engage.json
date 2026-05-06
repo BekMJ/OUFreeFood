@@ -1,35 +1,5 @@
 [
   {
-    "id": "engage-za9b53",
-    "title": "Finals De-Stress -- Enter to win a scholarship!",
-    "host": "First-Year Learning and Engagement",
-    "campus": "",
-    "location": "Wagner Hall Rm. 150",
-    "description": "Join the Academic Success Center for our Finals DeStress event - we'll have therapy dogs, free pizza, coffee and cookies, dirty sodas, video games, study kits and more; something for everyone! There will also be a chance for drop-in Academic Coaching sessions to help prepare you for finals and a chance to win a $500 scholarship thanks to OU Federal Credit Union.",
-    "category": "Pizza",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12458206",
-    "start": "2026-05-06T16:00:00.000Z",
-    "end": "2026-05-06T19:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "Social"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Pizza",
-      "confidence": 1,
-      "matchedTerms": [
-        "free pizza",
-        "pizza",
-        "coffee",
-        "cookies"
-      ]
-    }
-  },
-  {
     "id": "engage-xga2xb",
     "title": "Popcorn Thursday",
     "host": "Office of Student Life",
@@ -41,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12098613",
     "start": "2026-05-07T19:00:00.000Z",
     "end": "2026-05-07T21:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -69,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12460281",
     "start": "2026-05-08T17:00:00.000Z",
     "end": "2026-05-08T18:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -98,7 +68,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -128,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453291",
     "start": "2026-05-09T15:00:00.000Z",
     "end": "2026-05-09T22:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -157,7 +127,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12456056",
     "start": "2026-05-09T21:00:00.000Z",
     "end": "2026-05-10T03:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -185,7 +155,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453292",
     "start": "2026-05-10T18:00:00.000Z",
     "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -214,7 +184,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -243,7 +213,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-05-06T17:05:48.829Z",
+    "createdAt": "2026-05-06T19:11:06.333Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
