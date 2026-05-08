@@ -1,34 +1,5 @@
 [
   {
-    "id": "engage-zao00z",
-    "title": "Making Discoveries in Anatomy: A Free Lunch Lecture with Paleontologist Dr. Matt Wedel",
-    "host": "Sam Noble Museum of Natural History",
-    "campus": "Norman",
-    "location": "Sarkey's Energy Center (School of Geosciences)",
-    "description": "When: May 8, 2026 at 12:00 p.m. Where: Sarkeys Energy Center (School of Geosciences) Room 1446 What: The Oklahoma Museum of Natural History is excited to present a free lecture (lunch provided) featuring renowned paleontologist Dr. Matt Wedel. Making Discoveries in Anatomy will cover the role anatomy plays in diverse fields of study, including paleontology. Seating is Limited. Click Here to RSVP: Making Discoveries in Anatomy – Fill out form",
-    "category": "Lunch",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12460281",
-    "start": "2026-05-08T17:00:00.000Z",
-    "end": "2026-05-08T18:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning",
-      "Academic/Educational"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Lunch",
-      "confidence": 0.75,
-      "matchedTerms": [
-        "free lunch",
-        "lunch"
-      ]
-    }
-  },
-  {
     "id": "engage-yrzmsi",
     "title": "Study With Cooking Club",
     "host": "Cooking Club",
@@ -40,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12331261",
     "start": "2026-05-08T21:00:00.000Z",
     "end": "2026-05-09T00:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -70,7 +41,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453291",
     "start": "2026-05-09T15:00:00.000Z",
     "end": "2026-05-09T22:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -99,7 +70,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12456056",
     "start": "2026-05-09T21:00:00.000Z",
     "end": "2026-05-10T03:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -127,7 +98,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453292",
     "start": "2026-05-10T18:00:00.000Z",
     "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -156,7 +127,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -185,7 +156,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-05-08T17:41:46.301Z",
+    "createdAt": "2026-05-08T19:39:30.954Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
