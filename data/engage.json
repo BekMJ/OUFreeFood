@@ -1,33 +1,5 @@
 [
   {
-    "id": "engage-za7zsy",
-    "title": "ECCI End of Year Bash",
-    "host": "Esports and Co-Curricular Innovation",
-    "campus": "",
-    "location": "Cross B, OU Gaming Lounge",
-    "description": "OU Esports & Co-Curricular Innovation is hosting a free play day inside the OU Gaming Lounge of Cross B to support students in unwinding, destressing, and having some fun before finals. Alongside free play in the space (PCs, Consoles, Racing Rigs, etc), we'll also have free refreshments, music, tabletop, board games, and giveaways!",
-    "category": "Snacks",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12456056",
-    "start": "2026-05-09T21:00:00.000Z",
-    "end": "2026-05-10T03:00:00.000Z",
-    "createdAt": "2026-05-09T23:57:45.566Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "Social"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Snacks",
-      "confidence": 0.75,
-      "matchedTerms": [
-        "free refreshments",
-        "refreshments"
-      ]
-    }
-  },
-  {
     "id": "engage-za64f3",
     "title": "FJJMA Study Week",
     "host": "Fred Jones Jr. Museum of Art",
@@ -39,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453292",
     "start": "2026-05-10T18:00:00.000Z",
     "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-05-09T23:57:45.566Z",
+    "createdAt": "2026-05-10T04:06:40.493Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -68,7 +40,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-05-09T23:57:45.566Z",
+    "createdAt": "2026-05-10T04:06:40.493Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -97,7 +69,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-05-09T23:57:45.566Z",
+    "createdAt": "2026-05-10T04:06:40.493Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
