@@ -1,34 +1,5 @@
 [
   {
-    "id": "engage-za64f3",
-    "title": "FJJMA Study Week",
-    "host": "Fred Jones Jr. Museum of Art",
-    "campus": "",
-    "location": "Fred Jones Jr. Museum of Art",
-    "description": "Need a place to get ready for finals? Stop by the museum and enjoy a quiet, beautiful space to cram for exams. Or if you're looking to take a break from studying or grading, relax and refresh in the galleries surrounded by inspiring art. Free snacks and drinks will be provided. FJJMA Study Week is free for OU students, faculty, and staff.",
-    "category": "Snacks",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12453292",
-    "start": "2026-05-10T18:00:00.000Z",
-    "end": "2026-05-10T22:00:00.000Z",
-    "createdAt": "2026-05-10T21:25:32.776Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "Arts"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Snacks",
-      "confidence": 1,
-      "matchedTerms": [
-        "free snacks",
-        "snacks",
-        "drinks"
-      ]
-    }
-  },
-  {
     "id": "engage-za64f4",
     "title": "FJJMA Study Week",
     "host": "Fred Jones Jr. Museum of Art",
@@ -40,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453293",
     "start": "2026-05-12T15:00:00.000Z",
     "end": "2026-05-12T22:00:00.000Z",
-    "createdAt": "2026-05-10T21:25:32.776Z",
+    "createdAt": "2026-05-10T22:24:24.689Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -69,7 +40,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12453294",
     "start": "2026-05-13T15:00:00.000Z",
     "end": "2026-05-13T22:00:00.000Z",
-    "createdAt": "2026-05-10T21:25:32.776Z",
+    "createdAt": "2026-05-10T22:24:24.689Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
