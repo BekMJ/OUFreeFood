@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "engage-zceko8",
+    "title": "OU Career Center Careerapalooza",
+    "host": "Career Center",
+    "campus": "",
+    "location": "South Oval",
+    "description": "Career fairs can feel overwhelming—we’re here to make them make sense.At Careerapalooza, you can: Get registered for the career fair in minutes Ask real questions like: What should I wear? Which employers should I talk to based on my major or interests? What do I say when I walk up to a booth? What should I avoid doing? Build confidence before the fair instead of walking in unsureStop by between classes, get your questions answered, and grab a free lunch—because preparing for your future shouldn’t feel intimidating.",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12495255",
+    "start": "2026-09-09T16:00:00.000Z",
+    "end": "2026-09-09T19:00:00.000Z",
+    "createdAt": "2026-06-26T16:22:37.801Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free lunch",
+        "lunch"
+      ]
+    }
+  },
+  {
+    "id": "engage-zcekpv",
+    "title": "Etiquette Dinner",
+    "host": "Career Center",
+    "campus": "",
+    "location": "Union TBD",
+    "description": "Registration through Handshake does not secure your spot for the dinner. You must come to the Career Center located in the Union - Suite 320 and register in person to be added to the RSVP list. Join us for our Etiquette Dinner, an elegant evening designed to help you build confidence in professional dining situations. Learn essential etiquette skills, practice networking at the table, and enjoy a full-course meal, all while preparing for future interviews, banquets, and employer events. Please arrive in professional dress to ensure a polished, professional experience. *Space is limited-only 30 spots available!",
+    "category": "Dinner",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12495272",
+    "start": "2026-09-21T23:00:00.000Z",
+    "end": "2026-09-22T00:30:00.000Z",
+    "createdAt": "2026-06-26T16:22:37.801Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Dinner",
+      "confidence": 0.38,
+      "matchedTerms": [
+        "dinner",
+        "meal"
+      ]
+    }
+  }
+]
