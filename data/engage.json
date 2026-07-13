@@ -11,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12495255",
     "start": "2026-09-09T16:00:00.000Z",
     "end": "2026-09-09T19:00:00.000Z",
-    "createdAt": "2026-07-13T15:24:26.364Z",
+    "createdAt": "2026-07-13T17:31:27.876Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -39,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12495272",
     "start": "2026-09-21T23:00:00.000Z",
     "end": "2026-09-22T00:30:00.000Z",
-    "createdAt": "2026-07-13T15:24:26.364Z",
+    "createdAt": "2026-07-13T17:31:27.876Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -52,6 +52,34 @@
       "matchedTerms": [
         "dinner",
         "meal"
+      ]
+    }
+  },
+  {
+    "id": "engage-zaomaw",
+    "title": "Fall Majors & Minors Engagement Fair",
+    "host": "Center for Major and Career Exploration",
+    "campus": "",
+    "location": "South Oval",
+    "description": "The Center for Major & Career Exploration is very excited to host our Fall Majors/Minors Engagement Fair on October 21th, 2026 from 11:30 AM to 1:30 PM on the South Oval! This is your opportunity to visit with representatives from each Academic College at OU and hear about all the degree options, minor programs, and student organizations. Don’t miss out on your chance to discover what academic pathway will fit you best, and how to get involved in your Degree-Granting College. Those who RSVP on ENGAGE and attend will be eligible for our OU Swag & Prizes. Free snacks and prizes for all!!!",
+    "category": "Snacks",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12461199",
+    "start": "2026-10-21T16:30:00.000Z",
+    "end": "2026-10-21T18:30:00.000Z",
+    "createdAt": "2026-07-13T17:31:27.876Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "ThoughtfulLearning"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Snacks",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free snacks",
+        "snacks"
       ]
     }
   }
