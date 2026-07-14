@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-13T23:29:38.924Z",
+  "fetchedAt": "2026-07-14T00:57:58.546Z",
   "source": {
     "name": "OU Engage",
     "feedUrl": "https://ou.campuslabs.com/engage/events.rss",
     "baseUrl": "https://ou.campuslabs.com/engage/",
-    "feedTitle": "The University of Oklahoma Public Events occurring between Monday, July 13, 2026 6:29 PM CDT and Wednesday, October 21, 2026 6:29 PM CDT",
-    "feedLastBuildDate": "Mon, 13 Jul 2026 23:29:32 GMT"
+    "feedTitle": "The University of Oklahoma Public Events occurring between Monday, July 13, 2026 7:57 PM CDT and Wednesday, October 21, 2026 7:57 PM CDT",
+    "feedLastBuildDate": "Tue, 14 Jul 2026 00:57:58 GMT"
   },
   "classifier": {
     "version": 4,
@@ -21,7 +21,7 @@
     ]
   },
   "crawl": {
-    "fetchedAt": "2026-07-13T23:29:38.924Z",
+    "fetchedAt": "2026-07-14T00:57:58.546Z",
     "discoveryMode": "rss-feed",
     "baseUrl": "https://ou.campuslabs.com/engage/",
     "feedUrl": "https://ou.campuslabs.com/engage/events.rss",
