@@ -11,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12495255",
     "start": "2026-09-09T16:00:00.000Z",
     "end": "2026-09-09T19:00:00.000Z",
-    "createdAt": "2026-07-26T16:08:14.925Z",
+    "createdAt": "2026-07-26T17:34:56.024Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -39,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12495272",
     "start": "2026-09-21T23:00:00.000Z",
     "end": "2026-09-22T00:30:00.000Z",
-    "createdAt": "2026-07-26T16:08:14.925Z",
+    "createdAt": "2026-07-26T17:34:56.024Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -67,7 +67,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12461199",
     "start": "2026-10-21T16:30:00.000Z",
     "end": "2026-10-21T18:30:00.000Z",
-    "createdAt": "2026-07-26T16:08:14.925Z",
+    "createdAt": "2026-07-26T17:34:56.024Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -80,6 +80,34 @@
       "matchedTerms": [
         "free snacks",
         "snacks"
+      ]
+    }
+  },
+  {
+    "id": "engage-z9n0wz",
+    "title": "2026 Nonprofit and Community Engagement Career Fair",
+    "host": "Career Center",
+    "campus": "Norman",
+    "location": "Oklahoma Memorial Union",
+    "description": "The Nonprofit and Community Engagement Career Fair is a great opportunity for students to meet with local agencies (nonprofit, education, and health sector) and to learn about volunteerism, full-time, and internships opportunities. Get an early start for summer and post-graduation employment while networking with the many organizations who will attend! The career fair is free and open to the OU Community. This event will be held at the Oklahoma Memorial Union - 900 Asp Ave, Norman, OK 73019 BEFORE THE CAREER FAIR:Activate and update your Handshake account for 2026 - 2027 - When you check in at the career fair, a name tag will be printed with the name, major and graduation date on your Handshake account; therefore, make sure your Handshake account has your correct major and graduation date listed. If you have questions, please call the Career Center at 405-325-1974.Get your resume reviewed at the Career Center and uploaded to your account - Once your resume is ready, upload it to your Handshake account to be included for employers to view prior to the career fair.Research the organizations - Take a close look at the organizations attending who have indicated that they are looking for your major. Remember that many employers will indicate that they are interested in ALL MAJORS - so include these organizations in your research. Download the event app - Search \"Handshake\" in your app store or click here.AT THE CAREER FAIR: The Nonprofit and Community Engagement Career Fair is free and open to OU Students/Alumni ONLY Bring copies of your resume to distribute Park in the Union Parking Garage (limited space available) Parking is free! Free lunch for the first 100 students. We at the University of Oklahoma are committed to creating opportunities for equitable access to our events to all our students, alumni, staff/faculty, and employers. To allow us enough time to make arrangements, please submit any questions and/or accommodation requests to kelsey.brown@ou.edu by October 1st.",
+    "category": "Lunch",
+    "dietary": "",
+    "link": "https://ou.campuslabs.com/engage/event/12444540",
+    "start": "2026-11-03T17:00:00.000Z",
+    "end": "2026-11-03T19:00:00.000Z",
+    "createdAt": "2026-07-26T17:34:56.024Z",
+    "source": "engage-rss",
+    "status": "confirmed",
+    "feedCategories": [
+      "Social"
+    ],
+    "classification": {
+      "isFoodRelated": true,
+      "category": "Lunch",
+      "confidence": 0.75,
+      "matchedTerms": [
+        "free lunch",
+        "lunch"
       ]
     }
   }
