@@ -1,63 +1,88 @@
 # OU Free Food
 
-Find free food events for OU students across campuses. This is a simple static site you can open locally or host for others.
+A web app that helps University of Oklahoma students find free food events across campus.
+Zero-maintenance by design: a static front end on GitHub Pages, with a scheduled GitHub
+Actions job that refreshes event data on its own.
+
+**Live site:** https://bekmj.github.io/OUFreeFood/
+
+## How it works
+
+There's no server and no database. Instead:
+
+1. A **GitHub Actions workflow** (`.github/workflows/scrape-engage.yml`) runs every 30 minutes,
+   pulls the public OU Engage RSS feed, classifies which events actually involve free food,
+   and commits the result to `data/engage.json`.
+2. The **static site** on GitHub Pages fetches that JSON client-side and renders it.
+3. The workflow also writes `data/engage-meta.json` with scrape timestamps, event counts, and
+   an error summary, so a broken selector is visible instead of silently returning nothing.
+
+Total hosting cost is nothing, and there's no server to keep alive — which is the reason for
+the architecture, since this had to keep running without anyone maintaining it.
+
+## Features
+
+- **Calendar views** — list, week, and month.
+- **Filtering** — full-text search across title, host, description, and location; filter by
+  campus (Norman, OUHSC, Tulsa, Online), by category (Breakfast, Lunch, Dinner, Snacks, Pizza,
+  Pantry, Giveaway, Workshop), and by date range.
+- **Sorting** — soonest, latest, or recently added.
+- **Local event submission** — users can add events from the page; these stay in their browser
+  and merge with the shared data rather than being uploaded.
+- **Engage import** — one click merges the latest scraped events into the view.
+
+## Stack
+
+Vanilla JavaScript, HTML, and CSS on the front end — no framework, which keeps the Pages
+deploy trivial. The scraper is Node (ESM) using `cheerio` and `node-fetch`.
 
 ## Run locally
 
-Because the page fetches `data/events.json`, you need to serve files over HTTP (opening `index.html` directly with `file://` will block the fetch).
-
-Option 1: Python 3
+The page fetches `data/events.json`, so it needs to be served over HTTP — opening
+`index.html` as a `file://` URL will block the fetch.
 
 ```bash
-cd "/Users/npl-weng/Desktop/untitled folder/OUFreeFood"
 python3 -m http.server 5173
 ```
 
-Then open `http://localhost:5173` in your browser.
+Then open http://localhost:5173.
 
-Option 2: Node (if you have npm)
+Or with Node:
 
 ```bash
-npx --yes serve -l 5173 "/Users/npl-weng/Desktop/untitled folder/OUFreeFood"
+npx --yes serve -l 5173 .
 ```
 
-## Add events
+To run the scraper locally:
 
-- Use the form at the bottom of the page to add events locally. They are stored in your browser (not uploaded) and merged with the sample data.
-- To seed permanent events, edit `data/events.json` and reload.
-- Before editing seeded data, read `data/EVENT_SCHEMA.md` for the expected event shape and date requirements.
+```bash
+npm install
+npm run scrape:engage
+```
 
-## Filters
+## Deploying your own
 
-- Search text: title, host, description, location
-- Campus: Norman, OUHSC, Tulsa, Online
-- Category: Breakfast, Lunch, Dinner, Snacks, Pizza, Pantry, Giveaway, Workshop
-- Date range: From/To days (inclusive)
-- Sort: soonest, latest, recently added
+1. Fork or push to a GitHub repo.
+2. Settings → Pages → Deploy from a branch → `main` → `/` (root).
+3. Make sure Actions are enabled. The workflow also runs on manual dispatch.
+4. After the first successful run, `data/engage.json` exists and "Import from Engage" works.
 
-## Future ideas
+## Data and scope
 
-- Real backend for submissions and moderation
-- ICS/Google Calendar export
-- Automated email forwarding import
+The scraper reads only **public** OU Engage data via the public RSS feed and embedded event
+content. It does not use an OU login or any private credential. The only secret in the workflow
+is GitHub's own `GITHUB_TOKEN`, used solely to commit refreshed data back to the repo.
+
+Event shape and date requirements are documented in `data/EVENT_SCHEMA.md` — read it before
+editing seeded data in `data/events.json`.
+
+Classification heuristics and food-signal keywords live in `scripts/scrape-engage.mjs` and are
+best-effort; they may need adjustment if Engage changes its markup.
+
+## Roadmap
+
+- Backend for submissions and moderation
+- ICS / Google Calendar export
 - Email or SMS notifications
+- Map view with building code integration
 - Accessibility audit and keyboard shortcuts
-- Map view and building codes integration
-
-## GitHub Pages + Scheduled scraping
-
-This repo includes a free GitHub Actions workflow that pulls the public OU Engage RSS feed and commits `data/engage.json` on a schedule. The site can then import that cached JSON client-side on GitHub Pages (no server needed).
-
-The scraper only reads public OU Engage data, currently via the public RSS feed and embedded event content. It does not use an OU login. The only credential in the workflow is GitHub's `GITHUB_TOKEN`, which is used only to commit refreshed data back to your repo.
-
-Setup:
-1. Push this project to a GitHub repo.
-2. Enable Pages: Settings → Pages → Deploy from a branch → `main` → `/` (root).
-3. Actions: ensure Actions are enabled for the repo. The workflow `.github/workflows/scrape-engage.yml` runs every 30 min and on manual dispatch.
-4. After the first successful run, `data/engage.json` will exist. Click "Import from Engage" in the site to merge those events.
-5. The workflow also writes `data/engage-meta.json` with scrape timestamps, counts, and a small error summary for debugging.
-
-Notes:
-- The scraper is best-effort and may need selector adjustments if Engage changes markup.
-- You can tune classification logic and food signals in `scripts/scrape-engage.mjs`.
-- To run locally: `npm i` then `npm run scrape:engage`.

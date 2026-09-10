@@ -1,4 +1,5 @@
 const EVENTS_JSON_URL = "data/events.json";
+const ENGAGE_JSON_URL = "data/engage.json";
 const LOCAL_STORAGE_KEY = "oufreefood_local_events_v1";
 
 const state = {
@@ -18,6 +19,7 @@ const state = {
 document.addEventListener("DOMContentLoaded", () => {
   initUIRefs();
   wireEvents();
+  applyDefaultDateFilter();
   loadData();
 });
 
@@ -134,13 +136,24 @@ function wireEvents() {
   $themeToggle.addEventListener("click", toggleTheme);
 }
 
+// Default the "From" filter to today so the page opens on upcoming events
+// rather than whatever stale seed data is sitting in events.json.
+// The Clear button still resets this and shows everything, past included.
+function applyDefaultDateFilter() {
+  const now = new Date();
+  const iso = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  state.filters.dateFrom = iso;
+  if ($dateFrom) $dateFrom.value = iso;
+}
+
 async function loadData() {
   try {
-    const [remote, local] = await Promise.all([
+    const [remote, engage, local] = await Promise.all([
       fetch(EVENTS_JSON_URL).then(r => r.json()),
+      fetchOptionalJson(ENGAGE_JSON_URL),
       loadLocalEvents()
     ]);
-    state.events = dedupeEvents(normalizeEvents(remote));
+    state.events = dedupeEvents(normalizeEvents([...remote, ...engage]));
     state.localEvents = normalizeEvents(local);
   } catch (e) {
     console.error("Failed to load data", e);
@@ -156,7 +169,7 @@ async function importFromEngage() {
   $importEngageBtn.textContent = "Importing...";
   try {
     // Prefer GitHub-scraped file if present (no CORS issues on Pages)
-    const res = await fetch('data/engage.json', { cache: 'no-store' });
+    const res = await fetch(ENGAGE_JSON_URL, { cache: 'no-store' });
     if (!res.ok) throw new Error('No engage.json yet');
     const list = await res.json();
     const merged = dedupeEvents([...state.events, ...normalizeEvents(list)]);
