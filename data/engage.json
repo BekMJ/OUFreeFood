@@ -1,33 +1,5 @@
 [
   {
-    "id": "engage-zcekpv",
-    "title": "Etiquette Dinner",
-    "host": "",
-    "campus": "",
-    "location": "Union TBD",
-    "description": "Registration through Handshake does not secure your spot for the dinner. You must come to the Career Center located in the Union - Suite 320 and register in person to be added to the RSVP list. Join us for our Etiquette Dinner, an elegant evening designed to help you build confidence in professional dining situations. Learn essential etiquette skills, practice networking at the table, and enjoy a full-course meal, all while preparing for future interviews, banquets, and employer events. Please arrive in professional dress to ensure a polished, professional experience. *Space is limited-only 30 spots available!",
-    "category": "Dinner",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12495272",
-    "start": "2026-09-21T23:00:00.000Z",
-    "end": "2026-09-22T00:30:00.000Z",
-    "createdAt": "2026-09-21T23:08:42.449Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Dinner",
-      "confidence": 0.38,
-      "matchedTerms": [
-        "dinner",
-        "meal"
-      ]
-    }
-  },
-  {
     "id": "engage-zaomaw",
     "title": "Fall Majors & Minors Engagement Fair",
     "host": "",
@@ -39,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12461199",
     "start": "2026-10-21T16:30:00.000Z",
     "end": "2026-10-21T18:30:00.000Z",
-    "createdAt": "2026-09-21T23:08:42.449Z",
+    "createdAt": "2026-09-22T01:45:39.454Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
@@ -67,7 +39,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12444540",
     "start": "2026-11-03T17:00:00.000Z",
     "end": "2026-11-03T19:00:00.000Z",
-    "createdAt": "2026-09-21T23:08:42.449Z",
+    "createdAt": "2026-09-22T01:45:39.454Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
