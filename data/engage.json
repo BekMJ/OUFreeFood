@@ -1,33 +1,5 @@
 [
   {
-    "id": "engage-zaomaw",
-    "title": "Fall Majors & Minors Engagement Fair",
-    "host": "",
-    "campus": "",
-    "location": "South Oval",
-    "description": "The Center for Major & Career Exploration is very excited to host our Fall Majors/Minors Engagement Fair on October 21th, 2026 from 11:30 AM to 1:30 PM on the South Oval! This is your opportunity to visit with representatives from each Academic College at OU and hear about all the degree options, minor programs, and student organizations. Don’t miss out on your chance to discover what academic pathway will fit you best, and how to get involved in your Degree-Granting College. Those who RSVP on ENGAGE and attend will be eligible for our OU Swag & Prizes. Free snacks and prizes for all!!!",
-    "category": "Snacks",
-    "dietary": "",
-    "link": "https://ou.campuslabs.com/engage/event/12461199",
-    "start": "2026-10-21T16:30:00.000Z",
-    "end": "2026-10-21T18:30:00.000Z",
-    "createdAt": "2026-10-21T14:59:59.067Z",
-    "source": "engage-rss",
-    "status": "confirmed",
-    "feedCategories": [
-      "ThoughtfulLearning"
-    ],
-    "classification": {
-      "isFoodRelated": true,
-      "category": "Snacks",
-      "confidence": 0.75,
-      "matchedTerms": [
-        "free snacks",
-        "snacks"
-      ]
-    }
-  },
-  {
     "id": "engage-z9n0wz",
     "title": "2026 Nonprofit and Community Engagement Career Fair",
     "host": "",
@@ -39,7 +11,7 @@
     "link": "https://ou.campuslabs.com/engage/event/12444540",
     "start": "2026-11-03T17:00:00.000Z",
     "end": "2026-11-03T19:00:00.000Z",
-    "createdAt": "2026-10-21T14:59:59.067Z",
+    "createdAt": "2026-10-21T19:15:19.495Z",
     "source": "engage-rss",
     "status": "confirmed",
     "feedCategories": [
